@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> Proyecto Web </title>
+	<META NAME="Author" CONTENT="Osnayder Conde Rodriguez">
+	<META NAME="KeyWords" CONTENT="html, script, form, guia, página web">
+   	<META NAME="Classification" CONTENT="html languaje, simple script JavaScript">
+   	<META NAME="Description" CONTENT="Guia páginas web, Guide for html document construction">
+        <META charset="UTF-8">
+        <META name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/normalize.css" rel="stylesheet" type="text/css"/>
+        <link href="CSS/estilos.css" rel="stylesheet" type="text/css"/>
+        <style>
+            @font-face {
+                font-family: 'Montserrat';
+                src: local('Montserrat'), url(Montserrat.woff) format('woff');
+            }
+        </style>
+   </head>
+ <body>
+        <header>
+	    <div id="titulo_header">
+              <h1>Diseño de Paginas Web Completo</h1>
+              <h2>(HTML - CSS - JavaScript)</h2>
+	    </div>
+	    <ul id="menu">
+		  <li> <div id="opcion"> Inicio </div></li>
+	    	  <li> <div id="opcion"> HMTL </div></li>
+	    	  <li> <div id="opcion"> JavaScript </div></li>
+	    	  <li> <div id="opcion"> CSS </div></li>
+	    	  <li> <div id="opcion"> Ayuda </div></li>
+	   </ul> 
+        </header>
+        
+        <nav>
+		HTML5 no es una nueva versión del antiguo lenguaje de etiquetas, ni siquiera una mejora de esta ya antigua tecnología, sino
+		<br>un nuevo concepto para la construcción de sitios web y aplicaciones en una era que combina dispositivos móviles, computación en
+		<br>la nube y trabajos en red.
+		<br><br>Todo comenzó mucho tiempo atrás con una simple versión de HTML propuesta para
+		<br>crear la estructura básica de páginas web, organizar su contenido y compartir información.
+		<br>El lenguaje y la web misma nacieron principalmente con la intención de comunicar
+		<br>información por medio de texto. 		
+        </nav>
+
+	<aside>
+		<h2> Temas Relacionados </h2>
+		<br>
+		<ul id="menu_estandar">
+		  <li>Estructura de una Pagina Web </li>
+		  <li>Posicionamiento de Elementos Web</li>
+		  <li>Manejo de Tablas </li>
+		  <li> <a href="javaScript_Canvas.html">  Manejo de Canvas </a> </li>
+		  <li> <a href="multimedia.html"> Multimedia Imagen,Audio,Video </a> </li>
+		  <li> <a href="formularios.html"> Formularios Web </a></li>
+		</ul>
+	</aside>
+        
+        <section>
+
+                <h1> Cuerpo </h1>
+                <br>Las Paginas web estan compuestas por varias secciones, dichas secciones son usadas para organizar la información dentro de la pagina web
+		<br>Entre las partes que puede tener una pagina web son las siguientes: <br><br>
+		
+		<ul id="menu_estandar">
+		  <li> Cabecera (Header)</li>
+	    	  <li> Menu (Nav) </li>
+		  <li> Navegacion  (Aside) </li>
+		  <li> Cuerpo (Section) </li>
+		  <li> Pie de Pagina (Footer) </li>
+		</ul>
+		
+		<br>La verdad es que se puede agregar reperir varias vaces cada una de las anteriores etiquetas dentro de la pagina web, identificandolos con
+		<br>el "id", aunque no tiene mucho sentido por que para eso existe la etiqueta "div", que es usada para agrupar elementos de una pagina web
+		<br>para posterioremente agregar atributos de manera comun a todos ellos, en otras palabras tratar de manera comun un cojunto de elementos
+   		<br>que son totalmente distintos.
+                           
+                <br>Un tema interesante del diseño web es el posicionamiento, gracias al pisionamiento mejora la vistosidad de los sitios web
+		<br>ayuda tambien a distintiguir cada parte de una pagina web.
+                <br>HTMl ofrese muchas etiquetas, por ejemplo se puede agregar una etiqueta que permita visualisar caracteres con signo de puntuación
+		<br>Tambie hay etiqueta que permite definir meta datos, que permita a los buscadores web facilitar la busqueda de paginas web
+		<br>Por otra parte a HTML, se le puede incrustar codigo JavaScritp y CSS, el primero para la parte funcional de la pagina wemb
+		<br>El segundo(CSS) permite mejorar la vistosidad de la información que se muestra en la pagina web, en otra palabras mejora el diseño de la pagina.
+		
+           
+	    <article>
+		<p><br><br>
+		  CSS permite cargar diferentes tipo de fuentes a una pagina web, por ejemplo esta pagina web incluye un tipo de fuente externa, en el menu de navegación
+		  hay un tipo de fuente y dentro del cuerpo hay otro tipo de fuente. En el cuerpo de esta pagina web  se usa un tipo de fuente denominado montserrat.woff
+		</p>
+	    </article>
+
+
+Y ahí lo tienes, no hay más. En nuestra hoja CSS normal (style.css), puedes seguir usando inline-block como antes. Los que utilicen IE6 o IE7 también podrán leer este código ligeramente distinto, lo que les permitirá conseguir el mismo resultado visual.
+
+Posicionamiento absoluto, fijo y relativo
+Existen algunas otras técnicas bastante especiales que se emplean para posicionar elementos con precisión en la página:
+
+Posicionamiento absoluto: nos permite posicionar un elemento en cualquier parte de la página (superior izquierda, inferior derecha, centro, etc.).
+
+Posicionamiento fijo: es lo mismo que el posicionamiento absoluto, pero aquí el elemento permanece visible incluso si te desplazas hacia la parte inferior de la página. Es parecido, si hacemos memoria, al principio background-attachment: fixed;.
+
+Posicionamiento relativo: permite al elemento estar fuera de su posición normal.
+
+Del mismo modo que los objetos flotantes, los posicionamientos absolutos, fijos y relativos también funcionan en etiquetas en línea. 
+Sin embargo, verás que es más frecuente usarlos en etiquetas de bloque que en etiquetas en línea.
+
+En primer lugar tendrás que elegir una de las tres opciones de posicionamiento. Para ello, se utiliza la propiedad CSS position y se le da uno de estos valores:
+
+absolute: posicionamiento absoluto;
+
+fixed: posicionamiento fijo;
+
+relative: posicionamiento relativo.
+
+Pasaremos a examinar cada una de estas opciones de posicionamiento.
+
+Posicionamiento absoluto
+El posicionamiento absoluto permite situar un elemento en cualquier lugar de la página. Para situar un elemento de manera absoluta has de introducir:
+
+
+¡Pero no basta con esto! Aunque hemos especificado que el posicionamiento ha de ser absoluto, hemos de indicar en qué parte de la página queremos que se sitúe el bloque. 
+Para ello, vamos a utilizar cuatro propiedades CSS:
+
+left: posición relativa en la izquierda de la página;
+
+rigth: posición relativa en la derecha de la página;
+
+top: posición relativa en la parte superior de la página;
+
+bottom: posición relativa en el pie de la página;
+
+Puedes darles un valor en píxeles, como 14px, o un porcentaje, como 50%.
+
+Si todavía no ha quedado claro, la siguiente ilustración debería ayudarte a entenderlo.
+
+Posicionamiento de elementos absolutos
+Posicionamiento de elementos absolutos
+Mediante esta propiedad deberías ser capaz de situar tu bloque correctamente.
+
+Así pues, tendrás que usar la propiedad position correctamente y una de las cuatro propiedades anteriores como mínimo (top, left, right o bottom). Si por ejemplo introduces:
+
+
+...significará que el bloque se situará a la derecha, en la parte inferior derecha de la página (0 píxeles tomando como referencia la derecha de la página, 0 tomando la parte inferior de la página),
+
+Si intentamos poner nuestro bloque  en la parte inferior derecha de la página, obtendremos el resultado mostrado en la siguiente ilustración.
+
+El menú se sitúa en la esquina inferior derecha de la pantalla
+El menú se sitúa en la esquina inferior derecha de la pantalla
+Puedes, por supuesto, añadir un margen interior (padding) al menú para separarlo ligeramente del borde.
+
+Los elementos posicionados de manera absoluta están sobre el resto de elementos de la página. Además, si sitúas dos elementos de manera absoluta en el mismo lugar es posible que se solapen. En estos casos, utiliza la propiedad z-index para especificar qué elemento debería aparecer encima de los otros elementos.
+
+
+El elemento con el valor z-index más alto se situará por encima de los otros, tal y como se muestra en la siguiente ilustración.
+
+Posicionamiento de elementos absolutos
+Posicionamiento de elementos absolutos
+Una pequeña aunque importante aclaración técnica: el posicionamiento absoluto no siempre funciona tomando como referencia la esquina superior izquierda de la ventana. Si utilizas el posicionamiento absoluto para situar un bloque A dentro de otro bloque B, que se ha posicionado de manera absoluta, relativa o fija, tu bloque A se posicionará tomando como referencia la esquina superior izquierda del bloque B. ¡Haz la prueba y compruébalo!
+
+Posicionamiento fijo
+El principio es exactamente el mismo que el del posicionamiento absoluto, salvo que esta vez el bloque queda fijo en su posición incluso si te desplazas hacia el pie de la página
+
+
+Inténtalo y comprueba los resultados. Verás que en este caso el menú sigue mostrándose en la parte inferior derecha incluso si desplazas la página hacia abajo (ilustración siguiente).
+
+
+
+Posicionamiento relativo
+El posicionamiento relativo es algo más complicado y puede dar con facilidad algunas complicaciones. Este tipo de posicionamiento te permite realizar «ajustes»: el elemento está fuera de su posición normal.
+
+Tomemos como ejemplo un texto importante situado entre dos etiquetas  Para empezar, lo pondré sobre un fondo rojo para poder identificarlo mejor.
+
+
+Esta vez, el procedimiento que he mostrado antes de posicionamiento absoluto y fijo no sirve. ¿Por qué? Porque el origen ha cambiado: el punto de coordenadas (0, 0) ya no se encuentra en la parte superior izquierda de la venta como en el caso anterior. No, esta vez el origen está situado en la parte superior izquierda... de la posición actual de tu elemento.
+
+
+        </section>
+
+	        
+        <footer>
+            <p>
+	    <br>Osnayder Conde Rodriguez - Ing. De Sistemas 
+	    <br>Copyright Osnayder Conde - Todos los derechos reservados
+            <br><br><a href="#">  Contactame </a></p>
+        </footer>
+
+ </body>
+</html>
